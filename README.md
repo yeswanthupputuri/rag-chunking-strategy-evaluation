@@ -115,11 +115,11 @@ into the vector database. This prevents evaluation data leakage.
 The final experiment used a Q&A dataset containing more than 200+
 question-answer pairs.
 
-  Chunking Strategy     Avg. Cosine Similarity   Avg. ROUGE-L
-  ------------------- ------------------------ --------------
-  Fixed                                   0.76           0.43
-  Recursive                               0.82           0.49
-  Semantic                                0.87           0.56
+| Chunking Strategy | Avg. Cosine Similarity | Avg. ROUGE-L |
+|---|---:|---:|
+| Fixed | 0.76 | 0.43 |
+| Recursive | 0.82 | 0.49 |
+| Semantic | 0.87 | 0.56 |
 
 For this dataset and experimental configuration, semantic chunking
 produced the highest average scores on both metrics. These results are
